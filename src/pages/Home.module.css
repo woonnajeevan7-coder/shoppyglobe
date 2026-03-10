@@ -1,0 +1,62 @@
+.page {
+  min-height: calc(100vh - 64px);
+  padding-bottom: 60px;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #f0ede8 0%, #e8f4ee 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 48px 0 40px;
+  margin-bottom: 36px;
+}
+.heroEyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.15;
+}
+.heroTitle em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.chip {
+  padding: 7px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  transition: all var(--transition);
+  text-transform: capitalize;
+}
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chipActive {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.count {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 20px;
+}

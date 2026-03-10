@@ -1,0 +1,77 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  animation: fadeUp 0.25s ease forwards;
+}
+
+.thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: var(--muted-bg);
+  padding: 4px;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+.title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: 3px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 3px 8px;
+}
+.qtyBtn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color var(--transition);
+}
+.qtyBtn:hover { color: var(--text); }
+.qty {
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 18px;
+  text-align: center;
+}
+
+.removeBtn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  transition: all var(--transition);
+}
+.removeBtn:hover {
+  color: var(--danger);
+  background: #fef2f2;
+}
