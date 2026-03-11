@@ -43,7 +43,7 @@ A fully-featured React e-commerce application built with **Vite**, **Redux Toolk
 
 ```bash
 # 1. Clone the repository
-git clone <YOUR_REPO_LINK_HERE>
+git clone https://github.com/woonnajeevan7-coder/shoppyglobe
 cd shoppyglobe
 
 # 2. Install dependencies
@@ -123,4 +123,4 @@ All product data is fetched from the free [DummyJSON](https://dummyjson.com/) AP
 
 ---
 
-> Replace `<YOUR_REPO_LINK_HERE>` with your GitHub repository URL before submission.
+> Replace `https://github.com/woonnajeevan7-coder/shoppyglobe` with your GitHub repository URL before submission.
